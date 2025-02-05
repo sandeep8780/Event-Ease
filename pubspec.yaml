@@ -1,0 +1,46 @@
+name: eventease
+description: "An Event Management and Discovery App"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  smooth_page_indicator: ^1.0.0
+  flutter_lints: ^4.0.0
+  country_icons: ^2.0.1
+  font_awesome_flutter: ^10.4.0
+  google_maps_flutter: ^2.2.3
+  geolocator: ^13.0.2
+  flutter_search_bar: ^3.0.0
+  flutter_localizations:
+    sdk: flutter
+  country_picker: ^2.0.27
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/app_logo.png" # Path to your logo
+  adaptive_icon_foreground: "assets/icon/foreground.png" # (Optional) For Android adaptive icons
+  adaptive_icon_background: "assets/icon/background.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo2.png
+    - assets/event.png
+    - assets/event2.png
+    - assets/event3.png
+    - assets/event4.png
+    - assets/icons/
+    - assets/app_logo.png
+    - assets/profile2.png
+    - assets/paypal.png
+    - assets/mastercard.png
